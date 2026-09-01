@@ -3,12 +3,13 @@
     "embassy_title": "שגרירות ישראל בטשקנט",
     "embassy_subtitle": "Embassy of Israel in Tashkent",
     "page_title": "מדריך לאורחים ומשלחות רשמיות",
-    "welcome_text": "ברוכים הבאים לטשקנט. דף זה מרכז מידע חיוני, נהלי ביטחון, הנחיות הגעה ואנשי קשר לשירותכם."
+    "welcome_text": "ברוכים הבאים לטשקנט. דף זה מרכז מידע חיוני, נהלי ביטחון, הנחיות הגעה, שערי מטבע ואנשי קשר לשירותכם במהלך הביקור.",
+    "instagram_url": "https://www.instagram.com/israelinuzbekistan/"
   },
   "security_protocol": {
     "title": "נהלי ביטחון וכניסה לשגרירות",
     "items": [
-      "הכניסה מותנית בתיאום מראש ואישור ביטחוני בלבד.",
+      "הכניסה לשגרירות מותנית בתיאום מראש ואישור ביטחוני בלבד.",
       "חובה להצטייד בדרכון בתוקף בעת ההגעה לשער הנציגות.",
       "חל איסור מוחלט על הכנסת נשק ומכשירים אלקטרוניים לא מורשים.",
       "נא להישמע להנחיות צוות האבטחה בכניסה ובתוך המתחם."
@@ -18,7 +19,7 @@
     "title": "כתובת והנחיות הגעה",
     "address_en": "Tashkent, Uzbekistan",
     "address_ru": "г. Ташкент, Узбекистан",
-    "driver_note": "הנחיה לנהג / Yandex Go: הזן את הכתובת ישירות באפליקציה.",
+    "driver_note": "הנחיה לנהג מקומי / Yandex Go: יש להזין את הכתובת ישירות באפליקציה.",
     "google_maps_url": "https://maps.google.com",
     "yandex_maps_url": "https://yandex.com/maps"
   },
@@ -26,14 +27,15 @@
     "title": "אנשי קשר וחירום",
     "contacts": [
       { "role": "קצין תורן / Duty Officer", "name": "שגרירות ישראל", "phone": "+998711205800", "display_phone": "+998 71 120 58 00" },
-      { "role": "מרפאה בינלאומית מומלצת", "name": "Tashkent International Clinic", "phone": "+998712910142", "display_phone": "+998 71 291 01 42" }
+      { "role": "מרפאה בינלאומית מומלצת", "name": "Tashkent International Clinic (TIC)", "phone": "+998712910142", "display_phone": "+998 71 291 01 42" }
     ]
   },
   "practical_info": {
     "title": "מידע שימושי בטשקנט",
     "sections": [
-      { "category": "תחבורה", "description": "מומלץ להשתמש באפליקציית Yandex Go לתנועה בעיר." },
-      { "category": "כסף ותשלומים", "description": "המטבע המקומי הוא סום (UZS). מומלץ להחזיק מעט מזומן לצד אשראי בינלאומי." }
+      { "category": "תחבורה והתניידות", "description": "מומלץ להוריד ולהשתמש באפליקציית Yandex Go לתנועה בעיר." },
+      { "category": "כסף ותשלומים", "description": "המטבע המקומי הוא סום (UZS). כרטיסי אשראי מתקבלים ברוב המלונות, אך מומלץ להחזיק מזומן למוניות ושווקים." },
+      { "category": "תקשורת וסים מקומי", "description": "ניתן לרכוש סים מקומי (Ucell, Beeline, Uztelecom) בשדה התעופה או במרכז העיר בהצגת דרכון." }
     ]
   },
   "footer": {
