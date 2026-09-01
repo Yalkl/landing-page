@@ -10,10 +10,13 @@ export async function GET() {
 
 export async function POST(req) {
   try {
-    const { password, data } = await req.json();
+    const { password, data, checkOnly } = await req.json();
     const adminPass = process.env.ADMIN_PASSWORD || 'tashkent2026';
     if (password !== adminPass) {
       return NextResponse.json({ error: 'סיסמה שגויה' }, { status: 401 });
+    }
+    if (checkOnly) {
+      return NextResponse.json({ success: true });
     }
     const success = await saveContent(data);
     if (!success) {
